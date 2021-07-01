@@ -1,0 +1,65 @@
+# Login
+	
+	- table ms_login_client
+	- log_temp_client
+
+
+# Claim
+	
+	- tr_claimhdr
+	- tr_policy
+	- ms_admin_profile
+	- tr_polmember
+	- ms_member
+	- tr_profile
+	- ms_provider
+	- tr_claimreg
+	- tr_policybank
+	- ms_bank
+	- tr_claimdtl
+	- ms_benefit
+
+# dashboard
+
+	- das_urcob x
+	- tr_urcob x
+
+# Member
+
+	- tr_polmember
+	- ms_member
+	- tr_policy
+	- tr_profile
+	- ms_admin_profile
+	- tr_polmemberplan
+	- ms_relation
+
+# Reimbursment
+	
+	- tr_claimreg
+	- ms_provider
+	- ms_code
+	- tr_policy
+	- tr_profile
+	- tr_claimhdr
+	- tr_polmember
+	- ms_member
+	- tr_policybank
+	- ms_bank
+	- tr_claimdtl
+	- ms_benefit
+
+# Provider
+	
+	- ms_provider
+	- ms_city
+	- toc x
+	- das_gpcob x
+	- toc x
+
+# Report
+
+	- ms_report
+	- tr_policy
+	- tr_profile
+	- ms_admin_profile
